@@ -5,17 +5,17 @@ public enum Genero {
     ROMANCE("Romance"),
     ACAO("Ação"),
     SUSPENSE("Suspense"),
-    FICCAO_CIENTIFICA("Ficção científica"),
+    FICCAO_CIENTIFICA("Ficção Científica"),
     BIOGRAFIA("Biografia"),
     FILOSOFIA("Filosofia"),
     RELIGIOSO("Religioso"),
-    HISTORIA("Historia"),
-    CIENCIA("Ciencia"),
-    DIDATICO("Didatico");
+    HISTORIA("História"),
+    CIENCIA("Ciência"),
+    DIDATICO("Didático");
 
     private final String descricao;
 
-    Genero(String descricao){
+    Genero(String descricao) {
         this.descricao = descricao;
     }
 
